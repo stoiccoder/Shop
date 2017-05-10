@@ -1,0 +1,12 @@
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\bin\Release\Shop.exe.config
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\bin\Release\Shop.exe
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\bin\Release\Shop.pdb
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\bin\Release\Oracle.DataAccess.dll
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Release\Shop.Form1.resources
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Release\Shop.Form2.resources
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Release\Shop.Form3.resources
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Release\Shop.Properties.Resources.resources
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Release\Shop.csproj.GenerateResource.Cache
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Release\Shop.exe
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Release\Shop.pdb
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Release\Shop.csprojResolveAssemblyReference.cache

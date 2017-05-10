@@ -1,0 +1,15 @@
+c:\users\mahe\documents\visual studio 2015\Projects\Shop\Shop\bin\Debug\Shop.exe.config
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\bin\Debug\Shop.exe
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\bin\Debug\Shop.pdb
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\bin\Debug\Oracle.DataAccess.dll
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\obj\Debug\Shop.csprojResolveAssemblyReference.cache
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\obj\Debug\Shop.Form1.resources
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\obj\Debug\Shop.Properties.Resources.resources
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\obj\Debug\Shop.csproj.GenerateResource.Cache
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\obj\Debug\Shop.exe
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\obj\Debug\Shop.pdb
+C:\Users\MAHE\Documents\Visual Studio 2015\Projects\Shop\Shop\obj\Debug\Shop.Form2.resources
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.Form3.resources
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.Form4.resources
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.AboutBox1.resources
+C:\Users\MAHE\documents\visual studio 2015\Projects\Shop\Shop\obj\Debug\Shop.Form5.resources
