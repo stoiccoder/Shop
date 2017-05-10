@@ -1,0 +1,17 @@
+create or replace function ret_cname(a tile.typeno%type) 
+return tile.cname%type as 
+abc tile.cname%type;
+begin
+select cname into abc from tile where typeno=a;
+return abc;
+end;
+/ 
+
+
+create or replace function ret_price(a tile.typeno%type) 
+return tile.wsprice%type as abc tile.wsprice%type;
+begin
+select wsprice into abc from tile where typeno=a;
+return abc;
+end;
+/ 

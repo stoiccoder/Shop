@@ -1,0 +1,72 @@
+drop table stock;
+drop table warehouse;
+drop table tile_order;
+drop table orders;
+drop table tile;
+drop table employee;
+drop table login;
+drop table dealer;
+
+create table dealer(
+ name varchar(20) not null,
+ address varchar(40),
+ dno int primary key
+ );
+
+
+
+create table login(
+username varchar(20) primary key,
+pass varchar(15) not null);
+
+create table tile(
+cname varchar(20),
+design_no varchar(10),
+length int,
+width int,
+dno int,
+wsprice float,
+typeno int unique,
+primary key(cname, design_no),
+foreign key (dno) references dealer on delete cascade
+);
+
+create table warehouse(
+location_id int primary key,
+address varchar(40),
+capacity int);
+
+create table stock(
+typeno int primary key,
+location_id int,
+no_of_pieces int,
+quantity int,
+foreign key (typeno) references tile(typeno) on delete cascade,
+foreign key (location_id) references warehouse on delete cascade);
+
+
+create table employee(
+emp_id int primary key,
+fname varchar(20),
+lname varchar(20),
+phone int,
+address varchar(40),
+salary float,
+extra varchar(100),
+raise_date date,
+raise_amount float);
+
+create table orders(
+orderno int primary key,
+cust_name varchar(20),
+cust_phone int,
+emp_id int,
+foreign key (emp_id) references employee on delete cascade);
+
+create table tile_order(
+orderno int,
+typeno int,
+oquantity int,
+primary key (orderno,typeno),
+foreign key(orderno) references orders on delete cascade,
+foreign key(typeno) references tile(typeno) on delete cascade);

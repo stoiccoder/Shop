@@ -1,0 +1,32 @@
+create or replace trigger employee_trigger after update of salary or insert on employee
+for each row
+declare 
+a date;
+b int;
+begin
+if inserting then
+select sysdate into a from dual;
+update employee set raise_date=a , raise_amount=0  where emp_id=:new.emp_id;
+else if updating then
+select sysdate into a from dual;
+update employee set raise_date=a,raise_amount=:new.raise_amount-:old.raise_amount where emp_id=:new.emp_id;
+end if;
+end if;
+end;
+/
+
+
+declare
+a int;
+b int;
+begin
+for i in 1..100
+loop
+b:=i;
+a:=mod(i,4)+1;
+insert into stock values(b,a,7,100);
+end loop;
+end;
+/
+
+
